@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  width: 375px;
+  background-color: #ededed;
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px;
+  width: 375px;
+  background-color: white;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.logo {
+  width: 127px;
+  height: 34px;
+}
+.user-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.card {
+  height: 545px;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.title-container {
+  padding: 10px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.title-container img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.title-bold {
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  padding-top: 21px;
+  padding-bottom: 11px;
+  padding-left: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icons img {
+  width: 23px;
+  height: 22px;
+}
+
+.likes {
+  padding-left: 13px;
+  padding-bottom: 12px;
+  font-weight: 700;
+}
+
+.comments {
+  padding-left: 13px;
+  padding-bottom: 16px;
+}
